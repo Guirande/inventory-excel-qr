@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">InventoryQR</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="msg_default_status">Put CODE into center of scanning area</string>
+    <string name="scan">SCAN</string>
+    <string name="scan_resut_lable">SEARCH RESULT:</string>
+    <string name="invnr">Inventory Nr:</string>
+    <string name="name">Title:</string>
+    <string name="location">Location:</string>
+    <string name="mark">Found but not marked. It is Demo.</string>
+    <string name="notmark">Not marked.</string>
+    <string name="notfound">Not found.</string>
+    <string name="tab_2">SETTINGS</string>
+    <string name="tab_1">SCAN</string>
+    <string name="pathtofile">The path to equipment list:</string>
+    <string name="searchname">Inventory criteria column name:</string>
+    <string name="savebutton">SAVE</string>
+    <string name="browsebutton">BROWSE</string>
+    <string name="choose">Choose your file</string>
+    <string name="nosearch">Nothing Found</string>
+    <string name="btnAdd">Add</string>
+    <string name="btnClear">Clear</string>
+    <string name="btnRead">Read</string>
+    <string name="params">Data output parameters:</string>
+    <string name="btnBack">Back</string>
+    <string name="nofile">No selected Excel file</string>
+    <string name="finded">Finded</string>
+    <string name="colors">Select the color:</string>
+    <string name="markcolor">Colors:</string>
+    <string name="tab_3">ABOUT</string>
+</resources>

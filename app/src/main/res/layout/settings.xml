@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffe0e0e0" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/SpinnerTextViewItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@+id/scrollView1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="#ff003445" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="@string/pathtofile" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <EditText android:id="@+id/PathColumn" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:ems="10" android:selectAllOnFocus="false" android:freezesText="true" android:layout_weight="3.0" />
+                <Button android:textSize="16.0sp" android:textColor="#ffffffff" android:id="@+id/BrowseButton" android:layout_width="100.0dip" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="2.0dip" android:layout_marginBottom="5.0dip" android:text="@string/browsebutton" android:layout_weight="1.0" style="@style/btn_setting" />
+            </LinearLayout>
+            <TextView android:textColor="#ff003445" android:id="@+id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="@string/markcolor" />
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Spinner android:id="@+id/spinner1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="3.0" style="@style/SpinnerTextViewItem" />
+                <TextView android:id="@+id/textView5" android:layout_width="100.0dip" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="2.0dip" android:layout_marginBottom="5.0dip" android:layout_weight="1.0" />
+            </LinearLayout>
+            <TextView android:textColor="#ff003445" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="@string/searchname" />
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <EditText android:id="@+id/InventoryColumn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:ems="10" android:layout_weight="3.0">
+                    <requestFocus />
+                </EditText>
+                <TextView android:id="@+id/textView3" android:layout_width="100.0dip" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="2.0dip" android:layout_marginBottom="5.0dip" android:layout_weight="1.0" />
+            </LinearLayout>
+            <TextView android:textColor="#ff003445" android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="@string/params" />
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="3.0">
+                    <EditText android:id="@+id/editText3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10" />
+                    <EditText android:id="@+id/editText4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10" />
+                    <EditText android:id="@+id/editText5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10" />
+                    <EditText android:id="@+id/editText6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10" />
+                    <Button android:textSize="16.0sp" android:textColor="#ffffffff" android:id="@+id/SaveButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="2.0dip" android:layout_marginBottom="5.0dip" android:text="@string/savebutton" style="@style/btn_setting" />
+                </LinearLayout>
+                <TextView android:id="@+id/textView6" android:layout_width="100.0dip" android:layout_height="fill_parent" android:layout_margin="2.0dip" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

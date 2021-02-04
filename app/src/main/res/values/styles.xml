@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@android:style/Theme.Light" />
+    <style name="button">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/button</item>
+    </style>
+    <style name="btn_setting">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:background">@drawable/btn_setting</item>
+    </style>
+    <style name="preferences">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/preferences</item>
+    </style>
+    <style name="SpinnerTextViewItem">
+        <item name="android:textSize">8.0dip</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>
